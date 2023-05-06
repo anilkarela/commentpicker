@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main_div">
+        <div class="title_box">
+            <img src="./images/youtube.png" alt="youtube image" width="50px" class="img_youtube" />
+            <h2>Youtube Giveaway Manager</h2>
+        </div>
+
+        <div class="search_box">
+            <input type="text" name="youtube_link" class="search_input" placeholder="Youtube Link" value="https://www.youtube.com/watch?v=JreewwLEn40" />
+            <div class="search_icon_box">
+                <i class="fa fa-search icon_simple" aria-hidden="true"></i>
+                <i class="fa fa-circle-o-notch fa-spin icon_animate" style="font-size:24px;display:none;"></i>
+            </div>
+        </div>
+
+
+        <!-- comment winner box -->
+
+        <div class="winner_box">
+            <div class="winner_title">
+                <p>And The Winner Is...</p>
+                <i class="fa fa-close close_icon" aria-hidden="true"></i>
+             </div>
+             <hr width="100%" />
+             <br />
+  
+                <img src="" class="winner_image" width="100" />
+             
+             <h3 class="winner_name"></h3>
+             <p class="winner_comment"></p>
+
+             <i class="fa fa-trophy winner_icon" aria-hidden="true"></i>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
